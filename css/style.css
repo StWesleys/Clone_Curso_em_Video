@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Catamaran', sans-serif;
+}
+
+/*Menu*/
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: rgb(34, 34, 255);
+    align-items: center;
+}
+
+.container img{
+    width: 180px;
+    margin: 15px 0 10px 40px;
+}
+
+.menu a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px;
+}
+
+.menu a:last-child{
+    margin-right: 50px
+}
+
+.main-background{
+    background-color: rgb(34, 34, 255);
+    height: 80vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.main-background h1{
+    font-size: 120px;
+    line-height: 85px;
+    margin: 0 0 25px 40px;
+    color: white;
+}
+
+.main-background span{
+    color: rgb(0, 229, 252);
+}
+
+.main-background p{
+    color: white;
+    margin: 0 0 25px 40px;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.main-background a{
+    text-align: center;
+    margin: 20px 0 0 40px;
+    border: 1px solid white;
+    width: 10%;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.main-background a:hover{
+    background: white;
+    color: rgb(0, 2, 245);
+}
+
+/*Cursos*/
+.cursos img{
+    width: 125vh;
+}
+
+.cursos{
+    margin: 80px 10px 100px 15px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.cursos-lateral{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 0 20px 0 120px ;
+}
+
+.cursos-lateral p{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    color: rgb(28, 0, 81);
+    margin-bottom: 50px;
+}
+
+.cursos-lateral span{
+    color: rgb(39, 39, 255);
+}
+
+.cursos-lateral a{
+    text-align: center;
+    border: 1px solid transparent;
+    background: rgb(39, 39, 255);
+    width: 60%;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 40px;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+/*Mensagens*/
+.mensagens{
+    display: flex;
+    height: 80vh;
+}
+
+.mensagens h2{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: 0 150px;
+    font-size: 40px;
+    line-height: 40px;
+    color: rgb(28, 0, 81);
+}
+
+.depoimento{
+    background: rgb(215, 248, 249);
+    padding: 50px;  
+    max-width: 650px;
+}
+
+.circle{
+    width: 70px;
+    height: 70px;
+    background-image: url(https://www.cursoemvideo.com/wp-content/uploads/bb-plugin/cache/unnamed-circle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid transparent;
+    border-radius: 100%;
+}
+
+.pessoas{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.pessoas h3{
+    margin-left: 30px;
+    font-size: 20px;
+    color: rgb(38, 28, 63);
+}
+
+.depoimento p{
+    color: rgb(38, 28, 63);
+    font-size: 20px;
+    margin: 20px 108px;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.apoiador{
+    margin-top: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.apoiador-img img{
+    width: 70%;
+    padding-left: 50px;
+}
+
+.call{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.call h2{
+    font-size: 40px;
+    line-height: 40px;
+    color: rgb(28, 0, 81);
+    margin: 0 20px 30px 0;
+}
+
+.call p{
+    color: rgb(28, 0, 81);
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.call a{
+    margin: 40px 0 20px 0;
+    border: 1px solid rgb(39, 39, 255);
+    text-align: center;
+    width: 70%;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 2, 245);
+}
+
+.call a:hover{
+    background-color: rgb(39, 39, 255);
+    color: white;
+    transition: all .5s ease-in-out;
+}
+
+.estudonauta{
+    background: rgb(28, 1, 82);
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    font-family: 'Asap', sans-serif;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.estudonauta img{
+    width: 20%;
+    margin: 30px 0 20px 0;
+}
+
+.estudonauta p:nth-of-type(1){
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    background: rgb(85, 65, 125);
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.estudonauta p:nth-of-type(2){
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.estudonauta a{
+    text-align: center;
+    border: 1px solid transparent;
+    background-color: white;
+    width: 10%;
+    color: rgb(28, 1, 82);
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.estudonauta a:hover{
+    background: rgb(171, 161, 191);
+    transition: all .3s ease-in-out;
+}
+
+.apoie{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.apoie p{
+    margin: 50px 30px;
+    text-transform: uppercase;
+    font-family: 'Asap', sans-serif;
+    font-weight: 700;
+    color: rgb(131, 132, 132);
+}
+
+.apoiadores{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.seja-um-apoiador{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 50px 20px 0;
+}
+
+.seja-um-apoiador a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Asap', sans-serif;
+    color: rgb(131, 132, 132);
+    font-size: 15px;
+    border: 1px solid rgb(215, 219, 221);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#fb{
+    width: 50px;
+}
+
+#twitter{
+    width: 50px;
+}
+
+#yt{
+    width: 50px;
+}
+
+.curso-em-video img{
+    width: 25%;
+    height: 35%;
+}
+
+.rodape{
+    display: flex;
+    margin: 100px 0 0 50px;
+    justify-content: space-around;
+    background: rgb(232, 235, 237);
+    padding: 50px 0;
+}
+
+.curso-em-video p{
+    font-size: 13px;
+    font-family: 'Asap', sans-serif;
+    color: rgb(131, 132, 132);
+    line-height: 18px;
+}
+
+.curso-em-video-sobre{
+    margin-right: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.curso-em-video-sobre a{
+    font-family: 'Asap', sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(131, 132, 132);
+    font-size: 17px;
+}
+
+.curso-em-video-sobre a:hover{
+    color: rgb(39, 39, 254);
+}
+
+.sociais{
+    margin-right: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+
+}
+
+.sociais img{
+    margin-right: 20px;
+}
+
+.site{
+    background: rgb(219, 222, 224);
+}
+
+.site p{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bolder;
+    padding: 15px;
+    color: rgb(130, 138, 164);
+}
+
+.site a{
+    color: rgb(28, 0, 81);
+    text-decoration: none;
+}
