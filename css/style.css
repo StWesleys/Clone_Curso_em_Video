@@ -37,16 +37,16 @@ body{
 
 .main-background{
     background-color: rgb(34, 34, 255);
-    height: 80vh;
+    height: 85vh;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
 }
 
 .main-background h1{
-    font-size: 120px;
+    font-size: 115px;
     line-height: 85px;
-    margin: 0 0 25px 40px;
+    margin: 100px 0 25px 40px;
     color: white;
 }
 
@@ -312,16 +312,14 @@ body{
     border-radius: 5px;
 }
 
-#fb{
-    width: 50px;
+.sociais i{
+    width: 55px;
+    color: rgba(85, 86, 87, 0.289);
 }
 
-#twitter{
-    width: 50px;
-}
-
-#yt{
-    width: 50px;
+.sociais i:hover{
+    color: #2727FF;
+    transition: ease-in-out 0.3s;
 }
 
 .curso-em-video img{

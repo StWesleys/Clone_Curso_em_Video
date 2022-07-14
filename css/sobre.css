@@ -109,10 +109,54 @@ body{
     margin: 10px 0 20px 15px;
 }
 
+/*Alguns Números*/
+.numeros{
+    background-color: #00E5FC;
+    padding: 60px 0;
+    margin: 30px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.numeros h2{
+    color: #3A3A3A;
+    font-size: 45px;
+    text-align: center;
+}
+
+.nums_content{
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+.nums_content ul{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nums_content li{
+    list-style: none;
+    text-align: center;
+}
+
+.nums_content li span{
+    font-size: 35px;
+    font-weight: bold;
+    color: #3A3A3A;
+}
+
+.nums_content li p{
+    font-size: 20px;
+    line-height: 37px;
+    color: #261C3F;
+
+    margin-top: 20px;
+}
+
 /*Estudonauta e Rodapé*/
 .estudonauta{
     background: rgb(28, 1, 82);
-    margin-top: 100px;
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
@@ -198,16 +242,14 @@ body{
     border-radius: 5px;
 }
 
-#fb{
-    width: 50px;
+.sociais i{
+    width: 55px;
+    color: rgba(85, 86, 87, 0.289);
 }
 
-#twitter{
-    width: 50px;
-}
-
-#yt{
-    width: 50px;
+.sociais i:hover{
+    color: #2727FF;
+    transition: ease-in-out 0.3s;
 }
 
 .curso-em-video img{
